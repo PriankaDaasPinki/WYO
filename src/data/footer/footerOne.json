@@ -1,0 +1,123 @@
+
+[
+    {
+        "id": 1,
+        "title": "Create Website By Doob So Quick Download And Make Your Site."
+    },
+
+    {
+        "id": 2,
+        "title": "Services",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "Digital Marketing",
+                "url": "/seo"
+            },
+            {
+                "id": 2,
+                "text": "Web Development",
+                "url": "./web-application"
+            },
+            {
+                "id": 3,
+                "text": "Branding and Design",
+                "url": "/video-editing"
+            },
+            {
+                "id": 4,
+                "text": "IT Solutions",
+                "url": "/hosting"
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "title": "Solutions",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "Contact Us",
+                "url": "/Contact"
+            },
+            {
+                "id": 2,
+                "text": "About Us",
+                "url": "/about-us"
+            },
+            {
+                "id": 3,
+                "text": "Our Portfolio",
+                "url": "/portfolio"
+            },
+            {
+                "id": 4,
+                "text": "Our Letest Blog",
+                "url": "/blogs"
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "title": "Our Company",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "eCommerce Solution",
+                "url": "/ecommerce-solution"
+            },
+            {
+                "id": 2,
+                "text": "Email Marketing",
+                "url": "/email-marketing"
+            },
+            {
+                "id": 3,
+                "text": "Web Design and Development",
+                "url": "web-design-and-development" 
+            
+                
+            },
+            {
+                "id": 4,
+                "text": "Web Hosting",
+                "url": "/hosting"
+            }
+        ]
+    },
+
+    {
+        "id": 5,
+        "title": "Resources",
+        "quicklink": [
+            {
+                "id": 1,
+                "text": "About",
+                "url": "/about"
+            },
+            {
+                "id": 2,
+                "text": "Portfolio",
+                "url": "/portfolio"
+            },
+            {
+                "id": 3,
+                "text": "Contact",
+                "url": "/contact"
+            },
+            {
+                "id": 4,
+                "text": "Service",
+                "url": "/service"
+            }
+        ]
+    },
+
+    {
+        "id": 6,
+        "title": "Stay With Us.",
+        "subtitle": "2000+ Our clients are subscribe Around the World"
+    }
+]
