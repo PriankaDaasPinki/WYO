@@ -1,23 +1,24 @@
 import React from 'react';
 
-import SEO from "../../common/SEO";
-import Layout from "../../common/Layout";
-import BreadcrumbOne from "../breadcrumb/BreadcrumbOne";
-import SectionTitle from "../sectionTitle/SectionTitle";
-import ContactOne from "./ContactOne";
-import FooterTwo from '../../common/footer/FooterTwo';
-import Copyright from '../../common/footer/Copyright';
+import SEO from "../common/SEO";
+// import Layout from "../../common/Layout";
+import Layout from "../common/Layout";
+import BreadcrumbOne from "../elements/breadcrumb/BreadcrumbOne";
+import SectionTitle from "../elements/sectionTitle/SectionTitle";
+import ContactOne from '../elements/contact/ContactOne';
+import FooterTwo from '../common/footer/FooterTwo';
+import Copyright from '../common/footer/Copyright';
 
-const Contact = ({ showFooter }) => {
+const CareerAdvice = ({ showFooter }) => {
     return (
         <>
-            <SEO title="Contact || WhatsOn Agency " />
+            <SEO title="CareerAdvice || WYO " />
             <Layout>
                 <BreadcrumbOne 
-                    title="The Easiest Way To Create Website <br /> Contact US."
+                    title="The Easiest Way To Build Career <br /> Career Advice."
                     rootUrl="/"
                     parentUrl="Home"
-                    currentUrl="Contact"
+                    currentUrl="career-advice"
                 />
                 <div className="main-content">
                     {/* Start Contact Area */}
@@ -48,4 +49,4 @@ const Contact = ({ showFooter }) => {
     );
 }
 
-export default Contact;
+export default CareerAdvice;

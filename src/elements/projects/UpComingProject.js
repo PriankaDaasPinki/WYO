@@ -1,14 +1,5 @@
 import React from "react";
-import VideoTwo from "../video/VideoTwo";
 import { FiCheck } from "react-icons/fi";
-
-// const UpComingProject = [
-//   {
-//     id: "01",
-//     image: "./images/about/new-contact-image.jpg",
-//     popupLink: ["https://youtu.be/shxtVqDfzAE"],
-//   },
-// ];
 
 const UpComingProject = ({ image }) => {
   return (
@@ -24,39 +15,39 @@ const UpComingProject = ({ image }) => {
             <div className="content">
               <div className="inner">
                 <h3 className="title">
-                  WhatsOn Youth Org. is going to start
-                  <br />
-                  <strong>WordPress Theme Development</strong>
+                  WhatsOn Youth Organization is going to start
+                  {/* <br /> */}
+                  <strong className="ms-3">WordPress Theme Development</strong>
                 </h3>
                 <ul className="feature-list">
                   <li>
-                    <div className="icon">
-                      <FiCheck />
-                    </div>
-                    <div className="title-wrapper">
+                    <div className="title-wrapper d-flex align-items-center">
+                      <div className="icon me-4">
+                        <FiCheck />
+                      </div>
                       <h4 className="title">
                         Comprehensive WordPress Theme Development Skills
                       </h4>
-                      <p className="text">
+                      {/* <p className="text">
                         Learn essential theme development techniques, from theme
                         structure and PHP to creating custom post types and
                         integrating WooCommerce.
-                      </p>
+                      </p> */}
                     </div>
                   </li>
                   <li>
-                    <div className="icon">
-                      <FiCheck />
-                    </div>
-                    <div className="title-wrapper">
-                      <h4 className="title">
+                    <div className="title-wrapper d-flex align-items-center">
+                      <div className="icon me-4">
+                        <FiCheck />
+                      </div>
+                      <h4 className="title d-flex align-center">
                         Practical, Real-World Application
                       </h4>
-                      <p className="text">
+                      {/* <p className="text">
                         Gain hands-on experience with SEO, accessibility,
                         performance optimization, and tips for submitting themes
                         to WordPress and starting freelance work.
-                      </p>
+                      </p> */}
                     </div>
                   </li>
                 </ul>

@@ -30,23 +30,11 @@ const Nav = () => {
               Frontend Development
             </a>
           </li>
-          {/* <li><Link to="/crm-solutions">CRM Solutions</Link></li>
-                    <li><Link to="/email-marketing">Email Marketing</Link></li>
-                    <li><Link to="/video-editing">Video Editing</Link></li>
-                    <li><a href="https://whatson.agency/billing/cart.php?a=add&domain=register" target="_blank">Domain Register</a></li>
-                    <li><Link to="/hosting">Web Hosting</Link></li>
-                    <li><Link to="/seo">SEO</Link></li>
-                    <li><Link to="/facebook-promotion-and-boosting">Facebook Boosting</Link></li>
-                    <li><Link to="/youtube-advertisement">YouTube Advertisement</Link></li>
-                    <li><Link to="/google-advertisement">Google Advertisement</Link></li> */}
         </ul>
       </li>
 
-      {/* <li className=""><Link to="/blogs">Blog</Link>
-            </li> */}
-
       <li className="#">
-        <Link to="/portfolio">Career Advice</Link>
+        <Link to="/career-advice">Career Advice</Link>
       </li>
       <li>
         <Link to="/about-us">About Us</Link>

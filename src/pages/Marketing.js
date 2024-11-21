@@ -1,35 +1,18 @@
 import React from "react";
+import Typed from "react-typed";
+import { Link } from "react-router-dom";
+import { FiArrowRight } from "react-icons/fi";
+
+
 import SEO from "../common/SEO";
 import HeaderOne from "../common/header/HeaderOne";
 import HeaderTopBar from "../common/header/HeaderTopBar";
 import Copyright from "../common/footer/Copyright";
-
 import FooterTwo from "../common/footer/FooterTwo";
-// import AboutFour from "../elements/about/AboutFour";
-// import PortfolioThreeColumn from "../elements/portfolio/PortfolioThreeColumn";
-// import CircleProgress from "../elements/progressbar/CircleProgress";
-// import DigitalAgency from './DigitalAgency';
-
-// import TimelineTwo from "../elements/timeline/TimelineTwo";
-// import BlogListView from "../components/blog/BlogListView";
-// import ContactNew from "../elements/contact/ContactNew";
-
-import Typed from "react-typed";
-import { Link } from "react-router-dom";
-import { FiArrowRight } from "react-icons/fi";
 import Service from "../elements/service/Service";
-// import AdvanceTabOne from "../elements/advancetab/AdvanceTabOne";
-// import AdvancePricingOne from "../elements/advancePricing/AdvancePricingOne";
-// import BrandTwo from "../elements/brand/BrandTwo";
-
 import Separator from "../elements/separator/Separator";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import Pricing from "../elements/pricing/Pricing";
 import ProjectList from "../elements/projects/ProjectList";
-
-// import PortfolioOne from "../elements/portfolio/PortfolioOne";
-
-// import React from 'react';
 
 const Marketing = () => {
   return (
@@ -43,7 +26,6 @@ const Marketing = () => {
         />
 
         {/* Start Slider Area  */}
-
         <div className="slider-area slider-style-1 bg-transparent variation-2 height-750">
           <div className="container">
             <div className="row">
@@ -96,7 +78,6 @@ const Marketing = () => {
         {/* End Slider Area  */}
 
         <Separator />
-
         {/* Project List  */}
         <div className="rn-service-area rn-section-gap">
           <div className="container">
@@ -105,7 +86,6 @@ const Marketing = () => {
         </div>
 
         {/* <AboutFour /> */}
-
         <Separator />
 
         {/* Start Service Area  */}
@@ -128,71 +108,8 @@ const Marketing = () => {
             />
           </div>
         </div>
-        {/* End Service Area  */}
-
-        {/* <Separator /> */}
-
-        {/* pricing area start here */}
-
-        {/* <Pricing /> */}
-
-        <Separator />
-        {/* <div className="rwt-progressbar-area rn-section-gap">
-          <div className="container">
-            <div className="row mb--25">
-              <div className="col-lg-10 offset-lg-1">
-                <SectionTitle
-                  textAlign="text-center"
-                  radiusRounded=""
-                  subtitle="Our Expertise."
-                  title="Compnanies Expertise."
-                  description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
-                />
-              </div>
-            </div>
-            <div className="col-lg-10 offset-lg-1">
-              <CircleProgress />
-            </div>
-          </div>
-        </div> */}
-
-        {/* timeline section start */}
-        {/* <Separator />
-        <div className="rwt-timeline-area rn-section-gap">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <SectionTitle
-                  textAlign="text-center"
-                  radiusRounded=""
-                  subtitle="Discover"
-                  title="Working Process."
-                />
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-10 offset-lg-1 mt--50">
-                <TimelineTwo classVar="" />
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-        {/* timeline section end */}
-
-        {/* Start Blog Area  */}
-        {/* <BlogListView /> */}
-
-        {/* Start Contact Area  */}
-        {/* <ContactNew /> */}
-
-        {/* company choose use section end here */}
-
-        <Separator />
-
-        {/* Start FooterTwo Area  */}
+        
         <FooterTwo />
-
         {/* Start Copyrith Area  */}
         <Copyright />
       </main>

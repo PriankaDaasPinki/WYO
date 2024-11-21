@@ -1,22 +1,16 @@
 import React from "react";
+
 import SEO from "../common/SEO";
 import HeaderTopNews from "../common/header/HeaderTopNews";
 import HeaderOne from "../common/header/HeaderOne";
 import FooterTwo from "../common/footer/FooterTwo";
-// import BrandThree from "../elements/brand/BrandThree";
-// import AboutFour from "../elements/about/AboutFour";
-// import Service from "../elements/service/Service";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
 import CircleProgress from "../elements/progressbar/CircleProgress";
-// import TeamFour from "../elements/team/TeamFour";
-// import TimelineTwo from "../elements/timeline/TimelineTwo";
 import Separator from "../elements/separator/Separator";
 import Copyright from "../common/footer/Copyright";
-
 import UpcomimgCourse from "../assets/images/Projects/UpcomimgCourse.jpg";
 import UpComingProject from "../elements/projects/UpComingProject";
 import ProjectList from "../elements/projects/ProjectList";
-
 import projects_bg from "../assets/images/prianka/projects_bg.webp";
 
 const Projects = () => {
