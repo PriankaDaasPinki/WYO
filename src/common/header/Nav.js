@@ -11,22 +11,34 @@ const Nav = () => {
         <Link to="/projects">Projects</Link>
         <ul className="submenu">
           <li>
-            <a href="https://whatson.academy/courses/wordpress-theme-development/">
+            <a
+              href="https://whatson.academy/courses/wordpress-theme-development/"
+              target="_blank"
+            >
               WordPress Theme Development
             </a>
           </li>
           <li>
-            <a href="https://whatson.academy/courses/social-media-marketing-a-z-become-a-digital-marketer/">
+            <a
+              href="https://whatson.academy/courses/social-media-marketing-a-z-become-a-digital-marketer/"
+              target="_blank"
+            >
               Social Media Marketing A-Z
             </a>
           </li>
           <li>
-            <a href="https://whatson.academy/courses/wordpress-customization/">
+            <a
+              href="https://whatson.academy/courses/wordpress-customization/"
+              target="_blank"
+            >
               WordPress Customization
             </a>
           </li>
           <li>
-            <a href="https://whatson.academy/courses/frontend-development/">
+            <a
+              href="https://whatson.academy/courses/frontend-development/"
+              target="_blank"
+            >
               Frontend Development
             </a>
           </li>

@@ -11,7 +11,7 @@ import Copyright from '../../common/footer/Copyright';
 const Contact = ({ showFooter }) => {
     return (
         <>
-            <SEO title="Contact || WhatsOn Agency " />
+            <SEO title="Contact || WYO " />
             <Layout>
                 <BreadcrumbOne 
                     title="The Easiest Way To Create Website <br /> Contact US."

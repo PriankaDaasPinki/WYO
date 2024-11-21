@@ -17,7 +17,8 @@ const ContactOne = () => {
                                     </div>
                                     <div className="inner">
                                         <h4 className="title">Call us today</h4>
-                                        <p><a href="tel:+44 121 65 51 122">+44 121 65 51 122</a></p>
+                                        <p><a href="tel:+44 121 655 1122">+44 121 655 1122</a></p>
+                                        <p><a href="tel:+88 016 014 42163">+88 016 014 42163</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -41,8 +42,9 @@ const ContactOne = () => {
                                         <FiMapPin />
                                     </div>
                                     <div className="inner">
-                                        <h4 className="title">Visit our Office</h4>
-                                        <p>HQ Address: 13a Cannon St, Birmingham B2 5EN, UK</p>
+                                        <h4 className="title">Visit Our Local Office</h4>
+                                        {/* <p>HQ: 13a Cannon St, Birmingham B2 5EN, UK</p> */}
+                                        <p>BD Office: 1st floor H#09, R#02, Sec#03, Uttara, Dhaka-1230</p>
                                     </div>
                                 </div>
                             </div>

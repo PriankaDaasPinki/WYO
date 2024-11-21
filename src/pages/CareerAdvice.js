@@ -5,9 +5,9 @@ import SEO from "../common/SEO";
 import Layout from "../common/Layout";
 import BreadcrumbOne from "../elements/breadcrumb/BreadcrumbOne";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import ContactOne from '../elements/contact/ContactOne';
 import FooterTwo from '../common/footer/FooterTwo';
 import Copyright from '../common/footer/Copyright';
+import Career from '../elements/careerAdvice/Career';
 
 const CareerAdvice = ({ showFooter }) => {
     return (
@@ -29,13 +29,13 @@ const CareerAdvice = ({ showFooter }) => {
                                     <SectionTitle
                                         textAlign="text-center"
                                         radiusRounded=""
-                                        subtitle="Contact Info"
-                                        title="Our Contact Address"
-                                        description=""
+                                        subtitle="Career with WhatsOn"
+                                        title="Work for Everyone"
+                                        description="Find your next job at WhatsOn..."
                                     />
                                 </div>
                             </div>
-                            <ContactOne />
+                            <Career />
                         </div>
                     </div>
                     {/* End Contact Area */}

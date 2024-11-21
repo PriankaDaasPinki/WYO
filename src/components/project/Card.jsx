@@ -19,7 +19,7 @@ export default function Card(props) {
   return (
     <div className="Card col-sm-6 col-md-4 pb-5">
       <div>
-        <a href={link}>
+        <a href={link} target="_blank">
           <img
             className="img-fluid rounded"
             src={image}
