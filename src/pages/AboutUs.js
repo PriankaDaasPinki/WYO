@@ -42,45 +42,17 @@ const AboutUs = () => {
                       </span>
                     </h3>
                   </div>
-                  <h1 className="title2 display-one">Discover our History </h1>{" "}
-                  <br />
+                  <h1 className="title2 display-one">Discover our History </h1>
                 </div>
               </div>
             </div>
           </div>
         </div>
         {/* End Slider Area  */}
-
-        {/* Start Service Area  */}
-        {/* <div className="service-area rn-section-gapTop">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="content">
-                                    <h3 className="title">WhatsOn Digital agency is a world wide Progressive  Digital & IT company</h3>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <p className="mb--10">WhatsOn Digital agency is a world wide progressive Digital & IT company. We Provide the best service from 2012 to Present.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-        <AboutFour image="./images/about/contact-image.jpg" />
-        {/* End Service Area  */}
-
-        {/* Start Brand Area  */}
-        {/* <div className="rwt-brand-area pb--60 pt--30">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12 mt--10">
-                                <BrandThree brandStyle="brand-style-2" />
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-        {/* End Brand Area  */}
-
+        <div>
+          WhatsOn Youth Organization
+        </div>
+        {/* <AboutFour image="./images/about/contact-image.jpg" /> */}
         <Separator />
 
         {/* Start Service Area  */}
@@ -128,7 +100,7 @@ const AboutUs = () => {
         <Separator />
 
         {/* Start Elements Area  */}
-        <div className="rwt-progressbar-area rn-section-gap">
+        {/* <div className="rwt-progressbar-area rn-section-gap">
           <div className="container">
             <div className="row mb--25">
               <div className="col-lg-10 offset-lg-1">
@@ -145,10 +117,10 @@ const AboutUs = () => {
               <CircleProgress />
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Elements Area  */}
 
-        <Separator />
+        {/* <Separator /> */}
 
         {/* Start Elements Area  */}
         {/* <div className="rwt-team-area rn-section-gap">
