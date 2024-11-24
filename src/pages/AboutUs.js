@@ -1,18 +1,17 @@
 import React from "react";
+
 import SEO from "../common/SEO";
 import HeaderTopNews from "../common/header/HeaderTopNews";
 import HeaderOne from "../common/header/HeaderOne";
 import FooterTwo from "../common/footer/FooterTwo";
-// import BrandThree from "../elements/brand/BrandThree";
-import AboutFour from "../elements/about/AboutFour";
 import Service from "../elements/service/Service";
 import SectionTitle from "../elements/sectionTitle/SectionTitle";
-import CircleProgress from "../elements/progressbar/CircleProgress";
-// import TeamFour from "../elements/team/TeamFour";
 import TimelineTwo from "../elements/timeline/TimelineTwo";
 import Separator from "../elements/separator/Separator";
 import Copyright from "../common/footer/Copyright";
-import aboutUsMain from "../assets/images/prianka/aboutUsMain.jpg";
+import aboutUsMain from "../assets/images/prianka/aboutUs/aboutUsMain.jpg";
+import first from "../assets/images/prianka/aboutUs/first.JPG";
+import AboutPageImageSection from "../components/AboutPageImageSection";
 
 const AboutUs = () => {
   return (
@@ -49,8 +48,23 @@ const AboutUs = () => {
           </div>
         </div>
         {/* End Slider Area  */}
-        <div>
-          WhatsOn Youth Organization
+
+        <div className="rn-service-area rn-section-gap">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <SectionTitle
+                  textAlign="text-center"
+                  radiusRounded=""
+                  subtitle="About WYO"
+                  title="Who We Are"
+                  description="Whatson Youth Organization is dedicated to empowering the youth by fostering personal and professional development. Focused on building a brighter future, it engages in social work initiatives while equipping young individuals with valuable skills. The organization offers courses such as Web Development, WordPress Theme Customization, and Frontend Design to help youth thrive in the digital age."
+                />
+                <img className="rounded" src={first} alt="1st image" />
+                <AboutPageImageSection />
+              </div>
+            </div>
+          </div>
         </div>
         {/* <AboutFour image="./images/about/contact-image.jpg" /> */}
         <Separator />
@@ -98,48 +112,6 @@ const AboutUs = () => {
           </div>
         </div>
         <Separator />
-
-        {/* Start Elements Area  */}
-        {/* <div className="rwt-progressbar-area rn-section-gap">
-          <div className="container">
-            <div className="row mb--25">
-              <div className="col-lg-10 offset-lg-1">
-                <SectionTitle
-                  textAlign="text-center"
-                  radiusRounded=""
-                  subtitle="Our Expertise."
-                  title="Compnanies Expertise."
-                  description="There are many variations of passages of Lorem Ipsum available, <br /> but the majority have suffered alteration."
-                />
-              </div>
-            </div>
-            <div className="col-lg-10 offset-lg-1">
-              <CircleProgress />
-            </div>
-          </div>
-        </div> */}
-        {/* End Elements Area  */}
-
-        {/* <Separator /> */}
-
-        {/* Start Elements Area  */}
-        {/* <div className="rwt-team-area rn-section-gap">
-                    <div className="container">
-                        <div className="row mb--20">
-                            <div className="col-lg-12">
-                                <SectionTitle
-                                    textAlign = "text-center"
-                                    radiusRounded = ""
-                                    subtitle = "Our Corporate Team."
-                                    title = "Corporate Team Member."
-                                    description = ""
-                                />
-                            </div>
-                        </div>
-                        <TeamFour column="col-lg-6 col-xl-3 col-md-6 col-12 mt--30" teamStyle="team-style-three" />
-                    </div>
-                </div> */}
-        {/* End Elements Area  */}
 
         <FooterTwo />
         <Copyright />
