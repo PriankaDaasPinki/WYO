@@ -2,7 +2,6 @@ import React from "react";
 
 import three from "../assets/images/prianka/aboutUs/three.jpg";
 import one from "../assets/images/prianka/aboutUs/one.JPEG";
-// import two from "../assets/images/prianka/aboutUs/two.JPEG";
 import four from "../assets/images/prianka/aboutUs/four.JPG";
 import five from "../assets/images/prianka/aboutUs/five.JPG";
 import six from "../assets/images/prianka/aboutUs/six.JPG";
