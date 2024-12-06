@@ -16,7 +16,7 @@ const HeaderTopBar = () => {
       <div className="container">
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-5 col-md-12 col-12">
-            <div className="header-right">
+            <div className="header-right justify-content-start">
               <div className="address-content">
                 <p>
                   <FiMapPin />
